@@ -1,0 +1,156 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Headings */
+section h2 {
+  color: #004aad;
+  margin: 20px 0 10px;
+}
+
+/* About Section */
+#about {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#about img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  border: 1px solid #004aad;
+  padding: 10px;
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 60%;
+  background-color: #fafafa;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#contact table {
+  width: 80%;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #004aad;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00337a;
+}
+
+/* Footer */
+footer {
+  background-color: #004aad;
+  color: white;
+  padding: 10px;
+}
+
+#back-to-top {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#back-to-top:hover {
+  text-decoration: underline;
+}
